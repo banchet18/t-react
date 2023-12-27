@@ -1,7 +1,14 @@
 import "./App.css";
+import About from "./screens/About";
+import Contact from "./screens/Contact";
 
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <About />
+      <Contact />
+    </div>
+  );
 }
 
 export default App;
