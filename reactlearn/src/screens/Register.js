@@ -8,6 +8,7 @@ const Register = () => {
     console.log("hello World");
   };
 
+  console.log(email);
   return (
     <form>
       <div>
