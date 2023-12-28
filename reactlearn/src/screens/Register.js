@@ -4,12 +4,10 @@ const Register = () => {
     console.log("hello World");
   };
 
-  let age = 19;
-  let email = "123@gmail.com";
   return (
     <form>
       <div>
-        <input type="email" placeholder="Enter Email" />
+        <input type="email" placeholder="Enter Email" value />
         <input type="password" placeholder="Enter Password" />
         <button onClick={handleRegister}>submit</button>
       </div>
