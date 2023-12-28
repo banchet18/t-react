@@ -4,12 +4,17 @@ const Register = () => {
     console.log("hello World");
   };
 
+  let age = 12;
   return (
     <form>
-      <div>
-        <input type="email" placeholder="Enter Email" />
-        <button onClick={handleRegister}>submit</button>
-      </div>
+      {age > 18 ? (
+        <div>
+          <input type="email" placeholder="Enter Email" />
+          <button onClick={handleRegister}>submit</button>
+        </div>
+      ) : (
+        <h1>You are a kid</h1>
+      )}
     </form>
   );
 };
