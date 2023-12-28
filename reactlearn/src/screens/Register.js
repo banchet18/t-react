@@ -11,7 +11,6 @@ const Register = () => {
       <div>
         <input type="email" placeholder="Enter Email" />
         <input type="password" placeholder="Enter Password" />
-
         <button onClick={handleRegister}>submit</button>
       </div>
     </form>
