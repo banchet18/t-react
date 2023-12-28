@@ -6,7 +6,7 @@ import Register from "./screens/Register";
 function App() {
   return (
     <div>
-      {/* <About /> */ s}
+      {/* <About /> */}
       <Register />
       {/* <Contact /> */}
     </div>
