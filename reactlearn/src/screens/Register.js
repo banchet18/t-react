@@ -4,10 +4,11 @@ const Register = () => {
     console.log("hello World");
   };
 
-  let age = 12;
+  let age = 19;
+  let email = "123@gmail.com";
   return (
     <form>
-      {age > 18 ? (
+      {age > 18 && email == "123@gmail.com" ? (
         <div>
           <input type="email" placeholder="Enter Email" />
           <button onClick={handleRegister}>submit</button>
