@@ -1,20 +1,13 @@
 const Register = () => {
-  // const handleRegister = (event) => {
-  //   event.preventDefault();
-  //   console.log("hello World");
-  // };
+  const handleRegister = (event) => {
+    event.preventDefault();
+    console.log("hello World");
+  };
 
   return (
     <form>
       <input type="email" placeholder="Enter Email" />
-      <button
-        onClick={(event) => {
-          event.preventDefault();
-          console.log("hello world");
-        }}
-      >
-        submit
-      </button>
+      <button onClick={handleRegister}>submit</button>
     </form>
   );
 };
