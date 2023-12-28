@@ -1,5 +1,6 @@
 const Register = () => {
-  const handleRegister = () => {
+  const handleRegister = (event) => {
+    event.preventDefault();
     console.log("hello World");
   };
 
