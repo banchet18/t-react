@@ -6,8 +6,10 @@ const Register = () => {
 
   return (
     <form>
-      <input type="email" placeholder="Enter Email" />
-      <button onClick={handleRegister}>submit</button>
+      <div>
+        <input type="email" placeholder="Enter Email" />
+        <button onClick={handleRegister}>submit</button>
+      </div>
     </form>
   );
 };
