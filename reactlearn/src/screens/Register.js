@@ -1,4 +1,4 @@
-import useState from "react";
+import { useState } from "react";
 
 const Register = () => {
   const [email, setEmail] = useState();
@@ -11,7 +11,12 @@ const Register = () => {
   return (
     <form>
       <div>
-        <input type="email" placeholder="Enter Email" value />
+        <input
+          type="email"
+          placeholder="Enter Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
         <input type="password" placeholder="Enter Password" />
         <button onClick={handleRegister}>submit</button>
       </div>
