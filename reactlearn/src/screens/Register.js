@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Register = () => {
   const [email, setEmail] = useState();
-  const [password, setPassword] = useEffect();
+  const [password, setPassword] = useState();
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -10,6 +10,7 @@ const Register = () => {
   };
 
   console.log(email);
+  console.log(password);
 
   return (
     <form>
@@ -25,7 +26,7 @@ const Register = () => {
           type="password"
           placeholder="enter password"
           value={password}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={(e) => setPassword(e.target.value)}
         />
         <button onClick={handleRegister}>Submit</button>
       </div>
