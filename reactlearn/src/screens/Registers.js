@@ -11,7 +11,9 @@ const expensiveCalculation = (num) => {
 const Registers = () => {
   const [count, setCount] = useState(0);
   const [todos, setTodos] = useState([]);
-  const calculation = expensiveCalculation();
+  const calculation = useMemo(() => {
+    expensiveCalculation();
+  }, [count]);
 
   const increment = () => {
     setCount((c) => c + 1);
