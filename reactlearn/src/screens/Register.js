@@ -1,19 +1,26 @@
 //note useEffect hook - it render on screen render
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Register = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
-  const [age, setAge] = useState();
+  const [age, setAge] = useState(13);
+
+  useEffect(() => {}, []);
 
   const handleRegister = (event) => {
     event.preventDefault();
     console.log("hello World");
   };
-  setAge(12);
+
+  const increaseAge = (e) => {
+    e.preventDefault();
+    setAge(age + 1);
+  };
+
   return (
     <form>
-      <h1>{age}</h1>
+      <button onClick={increaseAge}>Increase</button>
       <div>
         <input
           type="email"
