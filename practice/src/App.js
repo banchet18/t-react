@@ -1,9 +1,10 @@
-import Home from "./screens/Home";
+// import Home from "./screens/Home";
+import Register from "./screens/Register";
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <Register />
     </div>
   );
 };
