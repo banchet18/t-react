@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const expensiveCalculator = (num) => {
   console.log("calculating.....");
@@ -12,7 +12,7 @@ const Registers = () => {
   const [count, setCount] = useState(0);
   const [todos, setTodos] = useState([]);
 
-  const calculation = expensiveCalculator();
+  const calculation = useMemo(() => expensiveCalculator(), []);
 
   const Increase = () => {
     setCount((count) => count + 1);
