@@ -10,6 +10,7 @@ const Register = () => {
   };
 
   console.log(email);
+  console.log(password);
   return (
     <form>
       <div>
