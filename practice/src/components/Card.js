@@ -1,4 +1,4 @@
-const card = ({ tiltle, email, rollNo }) => {
+const Card = ({ tiltle, email, rollNo }) => {
   return (
     <div>
       <h2>{tiltle}</h2>
@@ -7,4 +7,4 @@ const card = ({ tiltle, email, rollNo }) => {
     </div>
   );
 };
-export default card;
+export default Card;

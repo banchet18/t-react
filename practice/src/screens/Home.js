@@ -1,9 +1,9 @@
-import card from "../components/card";
+import Card from "../components/Card";
 
 const Home = () => {
   return (
     <div>
-      <card />
+      <Card tiltle="hello" />
     </div>
   );
 };
