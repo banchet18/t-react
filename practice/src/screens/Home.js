@@ -1,9 +1,12 @@
 import Card from "../components/Card";
+import data from "../utils";
 
 const Home = () => {
   return (
     <div>
-      <Card tiltle="hello" />
+      {data.map(({ title, email, rollNo }) => {
+        return <Card title={title} email={email} rollNo={rollNo} />;
+      })}
     </div>
   );
 };

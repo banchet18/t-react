@@ -1,9 +1,9 @@
-const Card = ({ tiltle, email, rollNo }) => {
+const Card = ({ title, email, rollNo }) => {
   return (
     <div>
-      <h2>{tiltle}</h2>
-      <h2>{email}</h2>
-      <h2>{rollNo}</h2>
+      <h2>{title}</h2>
+      <h3>{email}</h3>
+      <h4>{rollNo}</h4>
     </div>
   );
 };
