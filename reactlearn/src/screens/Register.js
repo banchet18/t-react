@@ -6,8 +6,6 @@ const Register = () => {
   const [password, setPassword] = useState();
   const [age, setAge] = useState(13);
 
-  useEffect(() => {}, []);
-
   const handleRegister = (event) => {
     event.preventDefault();
     console.log("hello World");
@@ -17,6 +15,10 @@ const Register = () => {
     e.preventDefault();
     setAge(age + 1);
   };
+
+  useEffect(() => {
+    console.log("age:", age);
+  }, []);
 
   return (
     <form>
