@@ -18,7 +18,9 @@ const Registers = () => {
     setCount((count) => count + 1);
   };
 
-  const addTodo = () => {};
+  const addTodo = () => {
+    setTodos(() => {});
+  };
 
   return (
     <div>
