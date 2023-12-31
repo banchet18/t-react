@@ -1,8 +1,16 @@
+import { useState } from "react";
+
 const Registers = () => {
+  const [count, setcount] = useState(0);
+  const [todos, setTodos] = useState([]);
+
+  const Increase = () => {};
+
   return (
     <div>
       <div>
         <h2>My Todos</h2>
+        {}
       </div>
       <hr />
       <div>
