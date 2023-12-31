@@ -1,10 +1,12 @@
 import { useState } from "react";
 
 const Registers = () => {
-  const [count, setcount] = useState(0);
+  const [count, setCount] = useState(0);
   const [todos, setTodos] = useState([]);
 
-  const Increase = () => {};
+  const Increase = () => {
+    setcount(() => {});
+  };
 
   return (
     <div>
