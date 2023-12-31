@@ -1,4 +1,10 @@
+import Home from "../screens/Home";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 };
 export default App;
