@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./screens/About";
 import Contact from "./screens/Contact";
-import Registers from "./screens/Registers";
+import Register from "./screens/Register";
 // import UserList from "./screens/UserList";
 import React from "react";
 // import ReactDOM from "react-dom/client";
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/register",
-    element: <Registers />,
+    element: <Register />,
   },
 ]);
 

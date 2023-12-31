@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 
 const Register = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
-  const [age, setAge] = useState(13);
+  const [age, setAge] = useState(19);
+
+  const value = useSelector((state) => state.value);
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -21,6 +24,7 @@ const Register = () => {
 
   return (
     <form>
+      <h1>{value}</h1>
       {age > 18 ? (
         <div>
           <input
