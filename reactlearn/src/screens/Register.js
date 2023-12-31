@@ -18,26 +18,30 @@ const Register = () => {
 
   useEffect(() => {
     console.log("age:", age);
-  }, []);
+  }, [age]);
 
   return (
     <form>
+      {age > 18 ? (
+        <div>
+          <input
+            type="email"
+            placeholder="Enter Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <input
+            type="email"
+            placeholder="Enter Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <button onClick={handleRegister}>submit</button>
+        </div>
+      ) : (
+        <h2>You are not 18</h2>
+      )}
       <button onClick={increaseAge}>Increase</button>
-      <div>
-        <input
-          type="email"
-          placeholder="Enter Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <input
-          type="email"
-          placeholder="Enter Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button onClick={handleRegister}>submit</button>
-      </div>
     </form>
   );
 };
