@@ -1,11 +1,13 @@
 import { useState } from "react";
 
+const expensiveCalculator = () => {};
+
 const Registers = () => {
   const [count, setCount] = useState(0);
   const [todos, setTodos] = useState([]);
 
   const Increase = () => {
-    setcount(() => {});
+    setCount((count) => count + 1);
   };
 
   return (
