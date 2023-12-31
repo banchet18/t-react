@@ -3,16 +3,16 @@ import { useState } from "react";
 const Register = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  const [age, setAge] = useState();
 
   const handleRegister = (event) => {
     event.preventDefault();
     console.log("hello World");
   };
 
-  console.log(email);
-  console.log(password);
   return (
     <form>
+      <h1>{age}</h1>
       <div>
         <input
           type="email"
