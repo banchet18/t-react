@@ -13,7 +13,7 @@ const Registers = () => {
   const [todos, setTodos] = useState([]);
   const calculation = useMemo(() => {
     expensiveCalculation();
-  }, [count]);
+  }, [todos]);
 
   const increment = () => {
     setCount((c) => c + 1);
