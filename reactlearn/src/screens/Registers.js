@@ -11,6 +11,7 @@ const expensiveCalculation = (num) => {
 const Registers = () => {
   const [count, setCount] = useState();
   const [todos, setTodos] = useState([]);
+  const calculation = expensiveCalculation();
 
   const increment = () => {
     setCount((c) => c + 1);
@@ -29,7 +30,7 @@ const Registers = () => {
       </div>
       <div>
         Count:{count}
-        <button onClick={increment}></button>
+        <button onClick={increment}>+1</button>
         <h2>Expensive Calculation</h2>
         {calculation}
       </div>
