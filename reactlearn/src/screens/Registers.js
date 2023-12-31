@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const expensiveCalculation = (num) => {
   console.log("Calculating...");
