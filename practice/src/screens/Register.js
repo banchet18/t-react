@@ -11,13 +11,22 @@ const Register = () => {
   return (
     <div>
       <form action="">
-        <input
-          type="email"
-          placeholder="enter the email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <button onClick={handleRegister}>Submit</button>
+        <div>
+          <input
+            type="email"
+            placeholder="enter the email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <button onClick={handleRegister}>Submit</button>
+          <input
+            type="email"
+            placeholder="enter the email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <button onClick={handleRegister}>Submit</button>
+        </div>
       </form>
     </div>
   );
