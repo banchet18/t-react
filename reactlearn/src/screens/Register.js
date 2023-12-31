@@ -1,3 +1,4 @@
+//note useEffect hook - it render on screen render
 import { useState } from "react";
 
 const Register = () => {
@@ -9,7 +10,7 @@ const Register = () => {
     event.preventDefault();
     console.log("hello World");
   };
-
+  setAge(12);
   return (
     <form>
       <h1>{age}</h1>
