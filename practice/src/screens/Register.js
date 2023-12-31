@@ -6,11 +6,17 @@ const Register = () => {
     event.preventDefault();
     console.log("hello world");
   };
+  console.log(email);
 
   return (
     <div>
       <form action="">
-        <input type="email" placeholde="enter the email" value={email} />
+        <input
+          type="email"
+          placeholder="enter the email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
         <button onClick={handleRegister}>Submit</button>
       </form>
     </div>
