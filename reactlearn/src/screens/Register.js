@@ -3,17 +3,25 @@ import { useEffect, useState } from "react";
 const Register = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  const [age, setAge] = useState(13);
 
   const handleRegister = (e) => {
     e.preventDefault();
     console.log("hello world");
   };
 
-  console.log(email);
-  console.log(password);
+  useEffect(() => {
+    console.log("age", age);
+  }, []);
+
+  const Increase = (e) => {
+    e.preventDefault();
+    setAge(age + 1);
+  };
 
   return (
     <form>
+      <button onClick={Increase}>Increase</button>
       <div>
         <input
           type="email"
