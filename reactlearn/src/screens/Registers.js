@@ -1,6 +1,12 @@
 import { useState } from "react";
 
-const expensiveCalculator = () => {};
+const expensiveCalculator = (num) => {
+  console.log("calculating.....");
+  for (let i = 0; i < 1000000000; i++) {
+    num += 1;
+  }
+  return num;
+};
 
 const Registers = () => {
   const [count, setCount] = useState(0);
