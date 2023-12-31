@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { Link } from "react-router-dom";
 
 const expensiveCalculator = (num) => {
   console.log("calculating.....");
@@ -38,6 +39,9 @@ const Registers = () => {
         <h2>expensive Calculation</h2>
         {calculation}
       </div>
+      <Link to="/about">
+        <button>Take me to About us </button>
+      </Link>
     </div>
   );
 };
