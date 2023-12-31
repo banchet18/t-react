@@ -1,6 +1,6 @@
 import "./App.css";
 import About from "./screens/About";
-// import Contact from "./screens/Contact";
+import Contact from "./screens/Contact";
 import Registers from "./screens/Registers";
 // import UserList from "./screens/UserList";
 import React from "react";
@@ -11,8 +11,8 @@ import store from "./store/store";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <div>Hello world!</div>,
+    path: "/contact",
+    element: <Contact />,
   },
   {
     path: "/about",

@@ -7,6 +7,7 @@ const Contact = () => {
     <button
       onClick={() => {
         store.dispatch(incrementByAmount(5));
+        console.log("state updated");
       }}
     >
       This is contact screen
