@@ -18,11 +18,14 @@ const Registers = () => {
     setCount((count) => count + 1);
   };
 
+  const addTodo = () => {};
+
   return (
     <div>
       <div>
         <h2>My Todos</h2>
-        {}
+        {todos.map((todo) => [...todo, "new todo"])}
+        <button onClick={addTodo}>Add Todo</button>
       </div>
       <hr />
       <div>
