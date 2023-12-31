@@ -8,6 +8,8 @@ const Registers = () => {
       <div>
         Count : {count}
         <button onClick={Increase}>Increase</button>
+        <h2>expensive Calculation</h2>
+        {calculation}
       </div>
     </div>
   );
