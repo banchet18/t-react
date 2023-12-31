@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./screens/About";
 import Contact from "./screens/Contact";
-import Registers from "./screens/Register";
+import Registers from "./screens/Registers";
 import UserList from "./screens/UserList";
 
 function App() {
