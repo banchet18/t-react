@@ -5,9 +5,10 @@ import { CountContext } from "../context/countContext";
 
 const About = () => {
   const value = useContext(CountContext);
+  console.log(value);
   return (
     <div>
-      <h1>{value}</h1>
+      <h1></h1>
       <Title name={"lakhan"} collegeName={"pce"} rollNo={12} />
       {/* <UnorderedList /> */}
       <Title name={"sham"} collegeName={"pillai"} rollNo={15} />
