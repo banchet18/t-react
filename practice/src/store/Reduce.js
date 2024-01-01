@@ -10,4 +10,4 @@ const rootReducer = createReducer(initialState, (builder) => {
   });
 });
 
-export default { incrementByAmount, rootReducer };
+export { incrementByAmount, rootReducer };
