@@ -22,6 +22,9 @@ const Home = () => {
           return <Card title={title} email={email} rollNo={rollNo} />;
         })}
       </div>
+      <Link to="/register">
+        <button>to Register</button>
+      </Link>
     </div>
   );
 };
