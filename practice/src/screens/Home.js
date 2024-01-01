@@ -1,4 +1,4 @@
-import { incrementByAmount } from "../../../reactlearn/src/store/reducer";
+import { incrementByAmount } from "../store/Reduce";
 import Card from "../components/Card";
 import store from "../store/Store";
 import data from "../utils";
