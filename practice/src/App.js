@@ -1,7 +1,8 @@
 import Register from "./screens/Register";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import Home from "./screens/Home";
+import { Provider } from "react-redux";
+import store from "./store/Store";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,9 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <div>
-      <RouterProvider router={router} />
+      <Provider store={store}>
+        <RouterProvider router={router} />
+      </Provider>
     </div>
   );
 };
