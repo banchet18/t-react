@@ -9,3 +9,5 @@ const rootReducer = createReducer(initialState, (builder) => {
     state.value += action.payload;
   });
 });
+
+export { incrementByAmount, rootReducer };
