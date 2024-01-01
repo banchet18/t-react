@@ -1,4 +1,3 @@
-// import Home from "./screens/Home";
 import Register from "./screens/Register";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
