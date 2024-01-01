@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { incrementByAmount } from "../store/reducer";
-import store from "../store/store";
+import { store } from "../store/store";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
