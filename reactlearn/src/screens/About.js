@@ -8,7 +8,6 @@ const About = () => {
   console.log(value);
   return (
     <div>
-      <h1></h1>
       <Title name={"lakhan"} collegeName={"pce"} rollNo={12} />
       {/* <UnorderedList /> */}
       <Title name={"sham"} collegeName={"pillai"} rollNo={15} />
