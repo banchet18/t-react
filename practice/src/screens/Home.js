@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import store from "../store/Store";
 import data from "../utils";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const value = useSelector((state) => state.value);
