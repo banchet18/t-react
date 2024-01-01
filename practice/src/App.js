@@ -2,10 +2,7 @@
 import Register from "./screens/Register";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
-import { configureStore } from "redux";
-import rootReducer from "./reducers";
-
-const store = configureStore(rootReducer);
+import store from "./store/Store";
 
 const router = createBrowserRouter([
   {
