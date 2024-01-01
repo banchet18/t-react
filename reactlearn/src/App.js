@@ -4,7 +4,7 @@ import Contact from "./screens/Contact";
 import Register from "./screens/Register";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
-import store from "./store/store";
+import { store } from "./store/store";
 
 const router = createBrowserRouter([
   {
