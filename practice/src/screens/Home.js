@@ -2,7 +2,7 @@ import Card from "../components/Card";
 import { incrementByAmount } from "../store/Reducer";
 import data from "../utils";
 import { useSelector } from "react-redux";
-import store from "../store/Store";
+import { store } from "../store/Store";
 import { Link } from "react-router-dom";
 
 const Home = () => {
