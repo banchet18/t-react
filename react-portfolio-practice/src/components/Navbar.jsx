@@ -1,5 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
