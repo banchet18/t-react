@@ -1,10 +1,4 @@
 const Header = () => {
-  return (
-    <Header>
-      <nav>
-        <h1>Jarvis</h1>
-      </nav>
-    </Header>
-  );
+  return <div>sadsa</div>;
 };
 export default Header;

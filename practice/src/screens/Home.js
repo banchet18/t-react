@@ -26,6 +26,7 @@ const Home = () => {
       <Link to="./register">
         <button>to register</button>
       </Link>
+      <h1>oljksandklasndklnaskldnlkasndljknlk</h1>
     </div>
   );
 };
