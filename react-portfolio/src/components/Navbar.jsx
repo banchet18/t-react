@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icon";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="toggleButton">
         <button>
-          <ReorderIcon />
+          <FaBars />
         </button>
       </div>
       <div className="links">
