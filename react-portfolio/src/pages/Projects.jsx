@@ -1,9 +1,9 @@
-import Card from "../components/Card";
+import Cards from "../components/Cards";
 
 const Projects = () => {
   return (
     <div>
-      <Card />
+      <Cards />
     </div>
   );
 };
