@@ -1,5 +1,4 @@
 .cardmain {
-  border: 2px solid red;
   height: 83.8vh;
   display: flex;
   justify-content: center;
@@ -27,4 +26,5 @@
   color: black;
   font-size: 20px;
   font-weight: bolder;
+  text-align: center;
 }
