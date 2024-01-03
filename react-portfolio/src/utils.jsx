@@ -1,10 +1,12 @@
+import shop from "./assets/shop.png";
+
 const ProjectList = [
   {
     id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png",
-    link: "https://www.google.com/",
-    linkName: "google",
-    git: "https://github.com/",
+    img: shop,
+    link: "https://chetan-shopp.netlify.app/",
+    linkName: "Ecommerce",
+    git: "https://github.com/banchet18/random-Projects/tree/main/shopping-cart",
   },
   {
     id: 2,
