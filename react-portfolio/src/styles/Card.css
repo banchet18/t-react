@@ -8,6 +8,11 @@
 }
 .cardwithlink {
   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .imgcontainer {
   width: 300px;
@@ -17,4 +22,9 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+.linkName {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
 }
