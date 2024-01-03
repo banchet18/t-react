@@ -2,3 +2,7 @@
   height: 83.7vh;
   background-color: #2d3250;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
