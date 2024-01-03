@@ -1,4 +1,6 @@
+import Main from "../components/Main";
+
 const Home = () => {
-  return <main className="main"></main>;
+  return <Main />;
 };
 export default Home;
