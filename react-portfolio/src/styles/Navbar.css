@@ -6,6 +6,13 @@
 .header {
   border: 2px solid black;
   background-color: #2d3250;
+  padding: 2rem;
+}
+.nav {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .link {
   text-decoration: none;
