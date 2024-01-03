@@ -19,7 +19,11 @@ const Navbar = () => {
           Projects
         </Link>
       </nav>
-      <div>Contact Me</div>
+      <div>
+        <Link to="./contact" className="link">
+          Contact Me
+        </Link>
+      </div>
     </header>
   );
 };
