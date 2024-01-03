@@ -1,3 +1,15 @@
-/* .cardMain {
+.cardmain {
+  border: 2px solid red;
+  height: 83.8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .cardwithlink {
   border: 2px solid black;
 } */
+.imgcontainer {
+  border: 2px solid black;
+  width: 300px;
+  height: 200px;
+}
