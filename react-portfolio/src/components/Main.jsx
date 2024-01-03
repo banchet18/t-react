@@ -7,9 +7,11 @@ const Main = () => {
   return (
     <div className="main">
       <div className="hero">
-        <h1>Hi, My Name is Chetan Banjara</h1>
-        <p>A software developer with a passion for learning and creating.</p>
-        <div>
+        <h1 className="h1">Hi, My Name is Chetan Banjara</h1>
+        <p className="para">
+          A Frontend developer with a passion for learning and creating.
+        </p>
+        <div className="links">
           <a href="https://www.linkedin.com/feed/" target="blank">
             <FaLinkedin />
           </a>
@@ -19,7 +21,7 @@ const Main = () => {
         </div>
       </div>
       <div className="heroimg">
-        <img src={avatar} alt="" />
+        <img src={avatar} alt="" className="avatarimg" />
       </div>
     </div>
   );
